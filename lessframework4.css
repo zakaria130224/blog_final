@@ -1,0 +1,225 @@
+/*		Default Layout: 992px.
+        Gutters: 24px.
+        Outer margins: 48px.
+        Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    89  */
+.templete{width:960px;margin:0px auto}
+.contemplete {width: 928px; margin: 0 auto;}
+.social{ width: 359px; margin-top:12px;}
+.maincontent{width: 606px;}
+.sidebar{ width: 253px;}
+.logo img{width: 70px; margin-right: 15px;}
+.logo h2{  font-size: 32px;margin-bottom: 11px; margin-top: 24px;}
+body{font-size:14px;line-height:18px}
+.logo{ width: 580px;}
+.searchbtn input[type="text"]{  padding: 5px;width: 200px; height: 20px; font-size: 16px;}
+.searchbtn input[type="submit"]{ padding-right: 10px;  padding-top: 0;font-size: 18px;height: 30px; padding-left: 10px;}
+.navsection ul li a{font-size: 20px;padding: 10px;}
+.footermenu ul li a{ font-size: 18px;}
+.icon a{font-size: 20px;margin-left: 3px;padding: 5px 10px;}
+.navsection{  min-height: 38px;}
+.samepost h2{font-size: 25px;}
+.samepost{font-size: 16px; line-height: 24px;}
+.samepost img{width: 200px;padding: 5px;}
+.samepost p {font-size: 16px;line-height: 23px;}
+.readmore a{font-size: 17px;padding: 4px 8px;}
+.samesidebar h2{  padding: 10px;}
+.samesidebar ul li{  font-size: 16px;}
+.popular h3 {  font-size: 20px;}
+.popular {margin-bottom: 20px;}
+.footersection{height:90px;}
+.footermenu { margin-top: 25px;margin-bottom: 5px;}
+.popular img{height: 40px;margin-top: 5px;  margin-right: 10px;  padding: 3px;
+  width: 55px;}
+  .about{ font-size: 16px;line-height: 24px;}
+  .about p{font-size: 16px; line-height: 24px; margin-bottom: 10px;}
+  .relatedpost img{ height: 100px;margin-bottom: 10px;width: 180px;}
+  .about img{ padding: 5px;  margin-right: 10px;}
+  input[type="text"], input[type="email"]{border-radius: 3px;margin-bottom: 5px; width: 300px;}
+   textarea{  width: 300px;  height: 120px;}
+   input[type="submit"]{ font-size: 20px;padding: 1px 10px}
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.templete{width:740px;margin:0px auto}
+	.contemplete {width: 708px; margin: 0 auto;}
+	.social{ width: 359px; margin-top:-62px;}
+	.maincontent{width: 455px;}
+	.sidebar{ width: 184px;}
+	.logo img{width: 60px; margin-right: 12px;}
+	.logo h2{  font-size: 22px;margin-bottom: 5px; margin-top: 24px;}
+	body{font-size:11px;line-height:15px}
+	.logo{ width: 580px;}
+	.searchbtn input[type="text"]{  padding: 4px;width: 172px; height: 18px; font-size: 10px;}
+	.searchbtn input[type="submit"]{ padding-right: 8px;  padding-top: 0;font-size: 11px;height: 26px; padding-left: 10px;}
+	.navsection ul li a{font-size: 16px;padding: 8px;}
+	.footermenu ul li a{ font-size: 12px;}
+	.icon a{font-size: 16px;margin-left: 3px;padding: 4px 9px;}
+	.navsection{  min-height: 31px;}
+	.samepost h2{font-size: 21px;}
+	.samepost{font-size: 14px; line-height: 23px;}
+	.samepost img{width: 188px;padding: 4px;}
+	.samepost p {font-size: 12px;line-height: 18px;}
+	.readmore a{font-size: 13px;padding: 3px 6px;}
+	.samesidebar h2{  padding: 9px;}
+	.samesidebar ul li{  font-size: 13px;}
+	.popular h3 {  font-size: 17px;}
+	.popular {margin-bottom: 8px;}
+	.footersection{height:81px;}
+	.footermenu { margin-top: 25px;margin-bottom: 5px;}
+	.popular img{height: 37px;margin-top: 0px;  margin-right: 10px;  padding: 3px;
+  width: 55px;}
+   .about{ font-size: 14px;line-height: 20px;}
+   .about p{font-size: 11px; line-height: 15px; margin-bottom: 5px;}
+   .relatedpost img{ height: 80px;margin-bottom: 6px;width: 130px;}
+   .about img{ padding: 5px;  margin-right: 10px;}
+   input[type="text"], input[type="email"]{padding:4px;margin-bottom: 4px; width: 214px;}
+     textarea{  width: 214px;  height: 88px;}
+	  input[type="submit"]{ font-size: 17px;padding: 1px 5px}
+   
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	.templete{width:300px;margin:0px auto}
+	.contemplete {width: 268px; margin: 0 auto;}
+	.logo img{width: 22px; margin-right: 5px;}
+	.logo h2{  font-size: 10px;margin-bottom: -1px; margin-top: 13px;}
+	body{font-size:4px;line-height:9px}
+	.logo{ width: 121px;}
+	.searchbtn input[type="text"]{  padding: 4px;width: 53px; height: 3px; font-size: 2px;}
+	.searchbtn input[type="submit"]{ padding-right: 2px;  padding-top: 0;font-size: 4px;height: 12px; padding-left: 1px;}
+	.icon a{font-size: 4px;margin-left: 1px;padding: 0px 6px;}
+	.icon{margin-bottom:-4px}
+	.social{width:115px;}
+	.navsection ul li a{font-size: 4px;padding: 1px;}
+	.navsection{  min-height: 11px;}
+	.samepost h2{font-size: 7px;}
+	.samepost{font-size: 7px; line-height: 7px;}
+	.samepost img{width: 57px;padding: 2px;}
+	.samepost p {font-size: 5px;line-height: 8px;}
+	.maincontent{width: 242px;}
+	.readmore a{font-size: 4px;padding: 2px 2px;}
+	.sidebar{ width: 246px;}
+	.samesidebar h2{  padding: 3px;}
+	.samesidebar ul li{  font-size: 5px;}
+	.popular h3 {  font-size: 6px;}
+	.popular {margin-bottom: -2px;}
+	.footermenu ul li a{ font-size: 5px;}
+	.footersection{height:41px;}
+	.footermenu { margin-top: 8px;margin-bottom: -2px;}
+	.popular img{height: 17px;margin-top: -6px;  margin-right: 4px;  padding: 1px;
+  width: 34px;}
+	 .about{ font-size: 5px;line-height: 5px;}
+	 .about p{font-size: 4px; line-height: 0px; margin-bottom: 2px;}
+	  .relatedpost img{ height: 29px;margin-bottom: 3px;width:72px;}
+	  .about img{ padding: 2px;  margin-right: 3px;width:69px;height:31px}
+	  input[type="text"], input[type="email"]{padding:1px;border-radius: 3px;margin-bottom: 5px; width: 173px;}
+       textarea{  width: 167px;  height: 88px;}
+	    input[type="submit"]{ font-size: 7px;padding: 1px 0px}
+	
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+	margin-left: -80px;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 5px 5px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+}
+
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 268px;
+	height: 120px
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.templete{width:460px;margin:0px auto}
+	.contemplete {width: 428px; margin: 0 auto;}
+	.logo img{width: 36px; margin-right: 8px;}
+	.logo h2{  font-size: 14px;margin-bottom: -5px; margin-top: 18px;}
+	body{font-size:6px;line-height:16px}
+	.logo{ width: 218px;}
+	.searchbtn input[type="text"]{  padding: 5px;width: 83px; height: 6px; font-size: 4px;}
+	.searchbtn input[type="submit"]{ padding-right: 10px;  padding-top: 1px;font-size: 5px;height: 17px; padding-left: 4px;}
+	.social{width:196px;}
+	.navsection ul li a{font-size: 12px;padding: 10px;}
+	.maincontent{width: 390px;}
+    .sidebar{ width: 406px;}
+	.footermenu ul li a{ font-size: 6px;}
+	.icon a{font-size: 7px;margin-left: 1px;padding: 1px 6px}
+	.navsection{  min-height: 38px;}
+	.samepost h2{font-size: 11px;}
+	.samepost{font-size: 10px; line-height: 10px;}
+	.samepost img{width: 101px;padding: 2px;}
+	.samepost p {font-size: 7px;line-height: 9px;}
+	.readmore a{font-size: 6px;padding: 2px 4px;}
+	.samesidebar h2{  padding: 3px;}
+	.samesidebar ul li{  font-size: 7px;}
+	.popular h3 {  font-size: 9px;}
+	.popular {margin-bottom: 4px;}
+	.footersection{height:50px;}
+	.footermenu { margin-top: 9px;margin-bottom: -5px;}
+	.navsection ul li a{font-size: 6px;padding: 2px;}
+	.navsection{  min-height: 20px;}
+	.popular img{height: 26px;margin-top: -5px;margin-right: 5px;padding: 2px;width: 47px;}
+	.about{ font-size: 8px;line-height: 8px;}
+    .about p{font-size: 6px; line-height: 7px; margin-bottom: 2px;}
+    .relatedpost img{ height: 49px;margin-bottom: 4px;width: 108px;}
+	.about img{ padding: 3px;  margin-right: 10px;width:112px;height:51px}
+     input[type="text"], input[type="email"]{ padding: 1px;border-radius: 3px;margin-bottom: 5px; width: 300px;}
+	   textarea{  width: 302px;  height: 74px;}
+	    input[type="submit"]{ font-size: 10px;padding: 1px 0px}
+
+}
+
+
